@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import FlowKit
 
 @main
 struct DatingSimulationApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        WindowGroup {   
+            FlowPresenter(
+                rootView: FlashView()
+            )
         }
     }
 }

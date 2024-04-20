@@ -1,0 +1,33 @@
+{
+  "originHash" : "3b0f93846ad5dac36cc2ee7300364b500473270b3806707754f8acc6b3657b42",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "flowkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Mercen-Lee/FlowKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "325681f69d3881740dab68730c195558405d5ab2"
+      }
+    },
+    {
+      "identity" : "opentds",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Mercen-Lee/OpenTDS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d01eb94fc0e787241ed5bb0f1cec32ce0c449af3"
+      }
+    }
+  ],
+  "version" : 3
+}

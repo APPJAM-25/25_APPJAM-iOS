@@ -7,13 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		857EFBCF2BD3BCD00033ECEB /* OpenTDS in Frameworks */ = {isa = PBXBuildFile; productRef = 857EFBCE2BD3BCD00033ECEB /* OpenTDS */; };
+		857EFBD62BD3C6300033ECEB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBD52BD3C6300033ECEB /* MainTabView.swift */; };
+		857EFBD92BD3C6840033ECEB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBD82BD3C6840033ECEB /* HomeView.swift */; };
+		857EFBEF2BD3C7660033ECEB /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBEE2BD3C7660033ECEB /* Font.swift */; };
+		857EFBF42BD3CAD70033ECEB /* RecodeChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBF32BD3CAD70033ECEB /* RecodeChatView.swift */; };
+		857EFBF72BD3CBC20033ECEB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBF62BD3CBC20033ECEB /* InfoView.swift */; };
+		857EFBFA2BD3CC110033ECEB /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBF92BD3CC110033ECEB /* MyPageView.swift */; };
+		857EFBFC2BD3CCA30033ECEB /* FlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBFB2BD3CCA30033ECEB /* FlashView.swift */; };
+		857EFC012BD3CE710033ECEB /* FlashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC002BD3CE710033ECEB /* FlashViewModel.swift */; };
+		857EFC092BD3D6FD0033ECEB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC082BD3D6FD0033ECEB /* CustomTextField.swift */; };
+		857EFC0B2BD3DB230033ECEB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC0A2BD3DB230033ECEB /* HomeViewModel.swift */; };
+		857EFC0D2BD3DBA00033ECEB /* AfterChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC0C2BD3DBA00033ECEB /* AfterChat.swift */; };
+		857EFC102BD3EB500033ECEB /* SetNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC0F2BD3EB500033ECEB /* SetNameViewModel.swift */; };
+		857EFC122BD3EB550033ECEB /* SetNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC112BD3EB550033ECEB /* SetNameView.swift */; };
+		857EFC152BD3EBC70033ECEB /* SetAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC142BD3EBC70033ECEB /* SetAgeView.swift */; };
+		857EFC172BD3EBE90033ECEB /* SetAgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC162BD3EBE90033ECEB /* SetAgeViewModel.swift */; };
+		857EFC1A2BD3F09C0033ECEB /* CustomOreangeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC192BD3F09C0033ECEB /* CustomOreangeButtonStyle.swift */; };
+		857EFC882BD3FC480033ECEB /* SUIT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857EFC7D2BD3FC480033ECEB /* SUIT-Bold.ttf */; };
+		857EFC892BD3FC480033ECEB /* SUIT-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857EFC7E2BD3FC480033ECEB /* SUIT-ExtraBold.ttf */; };
+		857EFC8A2BD3FC480033ECEB /* SUIT-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857EFC7F2BD3FC480033ECEB /* SUIT-ExtraLight.ttf */; };
+		857EFC8B2BD3FC480033ECEB /* SUIT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857EFC802BD3FC480033ECEB /* SUIT-Heavy.ttf */; };
+		857EFC8C2BD3FC480033ECEB /* SUIT-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857EFC812BD3FC480033ECEB /* SUIT-Light.ttf */; };
+		857EFC8D2BD3FC480033ECEB /* SUIT-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857EFC822BD3FC480033ECEB /* SUIT-Medium.ttf */; };
+		857EFC8E2BD3FC480033ECEB /* SUIT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857EFC832BD3FC480033ECEB /* SUIT-Regular.ttf */; };
+		857EFC8F2BD3FC480033ECEB /* SUIT-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857EFC842BD3FC480033ECEB /* SUIT-SemiBold.ttf */; };
+		857EFC902BD3FC480033ECEB /* SUIT-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857EFC852BD3FC480033ECEB /* SUIT-Thin.ttf */; };
+		857EFC932BD404930033ECEB /* SetGenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC922BD404930033ECEB /* SetGenderView.swift */; };
+		857EFC952BD404B30033ECEB /* SetGenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC942BD404B30033ECEB /* SetGenderViewModel.swift */; };
+		857EFC972BD406030033ECEB /* AnimationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC962BD406030033ECEB /* AnimationMode.swift */; };
+		857EFC9A2BD40DFF0033ECEB /* WantOtherUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC992BD40DFF0033ECEB /* WantOtherUserView.swift */; };
 		85DBABD52BD39EAE004888E0 /* DatingSimulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DBABD42BD39EAE004888E0 /* DatingSimulationApp.swift */; };
 		85DBABD72BD39EAE004888E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DBABD62BD39EAE004888E0 /* ContentView.swift */; };
 		85DBABD92BD39EAF004888E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DBABD82BD39EAF004888E0 /* Assets.xcassets */; };
 		85DBABDC2BD39EAF004888E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DBABDB2BD39EAF004888E0 /* Preview Assets.xcassets */; };
+		85DBABE42BD3A061004888E0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 85DBABE32BD3A061004888E0 /* Alamofire */; };
+		85DBABE62BD3A061004888E0 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 85DBABE52BD3A061004888E0 /* AlamofireDynamic */; };
+		85DBABEC2BD3A11A004888E0 /* FlowKit in Frameworks */ = {isa = PBXBuildFile; productRef = 85DBABEB2BD3A11A004888E0 /* FlowKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		857EFBD52BD3C6300033ECEB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		857EFBD82BD3C6840033ECEB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		857EFBEE2BD3C7660033ECEB /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		857EFBF32BD3CAD70033ECEB /* RecodeChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecodeChatView.swift; sourceTree = "<group>"; };
+		857EFBF62BD3CBC20033ECEB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		857EFBF92BD3CC110033ECEB /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		857EFBFB2BD3CCA30033ECEB /* FlashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashView.swift; sourceTree = "<group>"; };
+		857EFC002BD3CE710033ECEB /* FlashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashViewModel.swift; sourceTree = "<group>"; };
+		857EFC082BD3D6FD0033ECEB /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		857EFC0A2BD3DB230033ECEB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		857EFC0C2BD3DBA00033ECEB /* AfterChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterChat.swift; sourceTree = "<group>"; };
+		857EFC0F2BD3EB500033ECEB /* SetNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNameViewModel.swift; sourceTree = "<group>"; };
+		857EFC112BD3EB550033ECEB /* SetNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNameView.swift; sourceTree = "<group>"; };
+		857EFC142BD3EBC70033ECEB /* SetAgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAgeView.swift; sourceTree = "<group>"; };
+		857EFC162BD3EBE90033ECEB /* SetAgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAgeViewModel.swift; sourceTree = "<group>"; };
+		857EFC192BD3F09C0033ECEB /* CustomOreangeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOreangeButtonStyle.swift; sourceTree = "<group>"; };
+		857EFC1C2BD3F5CB0033ECEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		857EFC7D2BD3FC480033ECEB /* SUIT-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Bold.ttf"; sourceTree = "<group>"; };
+		857EFC7E2BD3FC480033ECEB /* SUIT-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraBold.ttf"; sourceTree = "<group>"; };
+		857EFC7F2BD3FC480033ECEB /* SUIT-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraLight.ttf"; sourceTree = "<group>"; };
+		857EFC802BD3FC480033ECEB /* SUIT-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Heavy.ttf"; sourceTree = "<group>"; };
+		857EFC812BD3FC480033ECEB /* SUIT-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Light.ttf"; sourceTree = "<group>"; };
+		857EFC822BD3FC480033ECEB /* SUIT-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Medium.ttf"; sourceTree = "<group>"; };
+		857EFC832BD3FC480033ECEB /* SUIT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Regular.ttf"; sourceTree = "<group>"; };
+		857EFC842BD3FC480033ECEB /* SUIT-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-SemiBold.ttf"; sourceTree = "<group>"; };
+		857EFC852BD3FC480033ECEB /* SUIT-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Thin.ttf"; sourceTree = "<group>"; };
+		857EFC922BD404930033ECEB /* SetGenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetGenderView.swift; path = ../../../../../../../../Desktop/SetGenderView.swift; sourceTree = "<group>"; };
+		857EFC942BD404B30033ECEB /* SetGenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetGenderViewModel.swift; path = ../../../../../../../../Desktop/SetGenderViewModel.swift; sourceTree = "<group>"; };
+		857EFC962BD406030033ECEB /* AnimationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationMode.swift; path = ../../../../../../../../Desktop/AnimationMode.swift; sourceTree = "<group>"; };
+		857EFC992BD40DFF0033ECEB /* WantOtherUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WantOtherUserView.swift; path = ../../../../../../../../Desktop/WantOtherUserView.swift; sourceTree = "<group>"; };
 		85DBABD12BD39EAE004888E0 /* DatingSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DBABD42BD39EAE004888E0 /* DatingSimulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingSimulationApp.swift; sourceTree = "<group>"; };
 		85DBABD62BD39EAE004888E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +89,184 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857EFBCF2BD3BCD00033ECEB /* OpenTDS in Frameworks */,
+				85DBABEC2BD3A11A004888E0 /* FlowKit in Frameworks */,
+				85DBABE42BD3A061004888E0 /* Alamofire in Frameworks */,
+				85DBABE62BD3A061004888E0 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		857EFBD02BD3BCD50033ECEB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				857EFBD32BD3C2100033ECEB /* Feature */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		857EFBD12BD3BCDF0033ECEB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				857EFC862BD3FC480033ECEB /* Font */,
+				85DBABD42BD39EAE004888E0 /* DatingSimulationApp.swift */,
+				85DBABD62BD39EAE004888E0 /* ContentView.swift */,
+				85DBABD82BD39EAF004888E0 /* Assets.xcassets */,
+				85DBABDA2BD39EAF004888E0 /* Preview Content */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		857EFBD32BD3C2100033ECEB /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				857EFC182BD3F0890033ECEB /* Sytle */,
+				857EFC072BD3D6DC0033ECEB /* Component */,
+				857EFBF02BD3C7BE0033ECEB /* Extension */,
+				857EFBFF2BD3CD590033ECEB /* Flash */,
+				857EFBD42BD3C6050033ECEB /* Main */,
+				857EFBD72BD3C67D0033ECEB /* Home */,
+				857EFBF52BD3CB4F0033ECEB /* Info */,
+				857EFBF22BD3CABB0033ECEB /* RecodeChat */,
+				857EFBF82BD3CBDA0033ECEB /* MyPage */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		857EFBD42BD3C6050033ECEB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				857EFBD52BD3C6300033ECEB /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		857EFBD72BD3C67D0033ECEB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				857EFBD82BD3C6840033ECEB /* HomeView.swift */,
+				857EFC0A2BD3DB230033ECEB /* HomeViewModel.swift */,
+				857EFC0C2BD3DBA00033ECEB /* AfterChat.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		857EFBF02BD3C7BE0033ECEB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				857EFBEE2BD3C7660033ECEB /* Font.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		857EFBF22BD3CABB0033ECEB /* RecodeChat */ = {
+			isa = PBXGroup;
+			children = (
+				857EFBF32BD3CAD70033ECEB /* RecodeChatView.swift */,
+			);
+			path = RecodeChat;
+			sourceTree = "<group>";
+		};
+		857EFBF52BD3CB4F0033ECEB /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				857EFBF62BD3CBC20033ECEB /* InfoView.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		857EFBF82BD3CBDA0033ECEB /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				857EFBF92BD3CC110033ECEB /* MyPageView.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		857EFBFF2BD3CD590033ECEB /* Flash */ = {
+			isa = PBXGroup;
+			children = (
+				857EFBFB2BD3CCA30033ECEB /* FlashView.swift */,
+				857EFC002BD3CE710033ECEB /* FlashViewModel.swift */,
+				857EFC0E2BD3EB3D0033ECEB /* SetName */,
+				857EFC132BD3EBB70033ECEB /* SetAge */,
+				857EFC912BD404860033ECEB /* SetGender */,
+				857EFC982BD40D970033ECEB /* WantOtherUser */,
+			);
+			path = Flash;
+			sourceTree = "<group>";
+		};
+		857EFC072BD3D6DC0033ECEB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				857EFC082BD3D6FD0033ECEB /* CustomTextField.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		857EFC0E2BD3EB3D0033ECEB /* SetName */ = {
+			isa = PBXGroup;
+			children = (
+				857EFC112BD3EB550033ECEB /* SetNameView.swift */,
+				857EFC0F2BD3EB500033ECEB /* SetNameViewModel.swift */,
+			);
+			path = SetName;
+			sourceTree = "<group>";
+		};
+		857EFC132BD3EBB70033ECEB /* SetAge */ = {
+			isa = PBXGroup;
+			children = (
+				857EFC142BD3EBC70033ECEB /* SetAgeView.swift */,
+				857EFC162BD3EBE90033ECEB /* SetAgeViewModel.swift */,
+			);
+			path = SetAge;
+			sourceTree = "<group>";
+		};
+		857EFC182BD3F0890033ECEB /* Sytle */ = {
+			isa = PBXGroup;
+			children = (
+				857EFC192BD3F09C0033ECEB /* CustomOreangeButtonStyle.swift */,
+			);
+			path = Sytle;
+			sourceTree = "<group>";
+		};
+		857EFC862BD3FC480033ECEB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				857EFC7D2BD3FC480033ECEB /* SUIT-Bold.ttf */,
+				857EFC7E2BD3FC480033ECEB /* SUIT-ExtraBold.ttf */,
+				857EFC7F2BD3FC480033ECEB /* SUIT-ExtraLight.ttf */,
+				857EFC802BD3FC480033ECEB /* SUIT-Heavy.ttf */,
+				857EFC812BD3FC480033ECEB /* SUIT-Light.ttf */,
+				857EFC822BD3FC480033ECEB /* SUIT-Medium.ttf */,
+				857EFC832BD3FC480033ECEB /* SUIT-Regular.ttf */,
+				857EFC842BD3FC480033ECEB /* SUIT-SemiBold.ttf */,
+				857EFC852BD3FC480033ECEB /* SUIT-Thin.ttf */,
+			);
+			name = Font;
+			path = pretendard/Font;
+			sourceTree = "<group>";
+		};
+		857EFC912BD404860033ECEB /* SetGender */ = {
+			isa = PBXGroup;
+			children = (
+				857EFC922BD404930033ECEB /* SetGenderView.swift */,
+				857EFC942BD404B30033ECEB /* SetGenderViewModel.swift */,
+				857EFC962BD406030033ECEB /* AnimationMode.swift */,
+			);
+			path = SetGender;
+			sourceTree = "<group>";
+		};
+		857EFC982BD40D970033ECEB /* WantOtherUser */ = {
+			isa = PBXGroup;
+			children = (
+				857EFC992BD40DFF0033ECEB /* WantOtherUserView.swift */,
+			);
+			path = WantOtherUser;
+			sourceTree = "<group>";
+		};
 		85DBABC82BD39EAE004888E0 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +286,9 @@
 		85DBABD32BD39EAE004888E0 /* DatingSimulation */ = {
 			isa = PBXGroup;
 			children = (
-				85DBABD42BD39EAE004888E0 /* DatingSimulationApp.swift */,
-				85DBABD62BD39EAE004888E0 /* ContentView.swift */,
-				85DBABD82BD39EAF004888E0 /* Assets.xcassets */,
-				85DBABDA2BD39EAF004888E0 /* Preview Content */,
+				857EFC1C2BD3F5CB0033ECEB /* Info.plist */,
+				857EFBD02BD3BCD50033ECEB /* Source */,
+				857EFBD12BD3BCDF0033ECEB /* Resource */,
 			);
 			path = DatingSimulation;
 			sourceTree = "<group>";
@@ -83,6 +317,12 @@
 			dependencies = (
 			);
 			name = DatingSimulation;
+			packageProductDependencies = (
+				85DBABE32BD3A061004888E0 /* Alamofire */,
+				85DBABE52BD3A061004888E0 /* AlamofireDynamic */,
+				85DBABEB2BD3A11A004888E0 /* FlowKit */,
+				857EFBCE2BD3BCD00033ECEB /* OpenTDS */,
+			);
 			productName = DatingSimulation;
 			productReference = 85DBABD12BD39EAE004888E0 /* DatingSimulation.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +351,11 @@
 				Base,
 			);
 			mainGroup = 85DBABC82BD39EAE004888E0;
+			packageReferences = (
+				85DBABE22BD3A061004888E0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				85DBABEA2BD3A11A004888E0 /* XCRemoteSwiftPackageReference "FlowKit" */,
+				857EFBCD2BD3BCD00033ECEB /* XCRemoteSwiftPackageReference "OpenTDS" */,
+			);
 			productRefGroup = 85DBABD22BD39EAE004888E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +370,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857EFC8A2BD3FC480033ECEB /* SUIT-ExtraLight.ttf in Resources */,
+				857EFC8D2BD3FC480033ECEB /* SUIT-Medium.ttf in Resources */,
+				857EFC8E2BD3FC480033ECEB /* SUIT-Regular.ttf in Resources */,
+				857EFC8C2BD3FC480033ECEB /* SUIT-Light.ttf in Resources */,
+				857EFC882BD3FC480033ECEB /* SUIT-Bold.ttf in Resources */,
+				857EFC8B2BD3FC480033ECEB /* SUIT-Heavy.ttf in Resources */,
+				857EFC902BD3FC480033ECEB /* SUIT-Thin.ttf in Resources */,
+				857EFC8F2BD3FC480033ECEB /* SUIT-SemiBold.ttf in Resources */,
 				85DBABDC2BD39EAF004888E0 /* Preview Assets.xcassets in Resources */,
+				857EFC892BD3FC480033ECEB /* SUIT-ExtraBold.ttf in Resources */,
 				85DBABD92BD39EAF004888E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +391,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857EFC952BD404B30033ECEB /* SetGenderViewModel.swift in Sources */,
+				857EFC092BD3D6FD0033ECEB /* CustomTextField.swift in Sources */,
+				857EFC152BD3EBC70033ECEB /* SetAgeView.swift in Sources */,
 				85DBABD72BD39EAE004888E0 /* ContentView.swift in Sources */,
+				857EFC9A2BD40DFF0033ECEB /* WantOtherUserView.swift in Sources */,
+				857EFC172BD3EBE90033ECEB /* SetAgeViewModel.swift in Sources */,
+				857EFBFA2BD3CC110033ECEB /* MyPageView.swift in Sources */,
+				857EFBD92BD3C6840033ECEB /* HomeView.swift in Sources */,
+				857EFC012BD3CE710033ECEB /* FlashViewModel.swift in Sources */,
+				857EFBF42BD3CAD70033ECEB /* RecodeChatView.swift in Sources */,
+				857EFBEF2BD3C7660033ECEB /* Font.swift in Sources */,
+				857EFBD62BD3C6300033ECEB /* MainTabView.swift in Sources */,
+				857EFC0B2BD3DB230033ECEB /* HomeViewModel.swift in Sources */,
+				857EFC122BD3EB550033ECEB /* SetNameView.swift in Sources */,
+				857EFC972BD406030033ECEB /* AnimationMode.swift in Sources */,
+				857EFC932BD404930033ECEB /* SetGenderView.swift in Sources */,
+				857EFC102BD3EB500033ECEB /* SetNameViewModel.swift in Sources */,
+				857EFBFC2BD3CCA30033ECEB /* FlashView.swift in Sources */,
 				85DBABD52BD39EAE004888E0 /* DatingSimulationApp.swift in Sources */,
+				857EFBF72BD3CBC20033ECEB /* InfoView.swift in Sources */,
+				857EFC1A2BD3F09C0033ECEB /* CustomOreangeButtonStyle.swift in Sources */,
+				857EFC0D2BD3DBA00033ECEB /* AfterChat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -254,6 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -271,10 +547,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DatingSimulation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DatingSimulation/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = W7X5HRD463;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingSimulation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,10 +577,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DatingSimulation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DatingSimulation/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = W7X5HRD463;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingSimulation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +622,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		857EFBCD2BD3BCD00033ECEB /* XCRemoteSwiftPackageReference "OpenTDS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mercen-Lee/OpenTDS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		85DBABE22BD3A061004888E0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		85DBABEA2BD3A11A004888E0 /* XCRemoteSwiftPackageReference "FlowKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mercen-Lee/FlowKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		857EFBCE2BD3BCD00033ECEB /* OpenTDS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 857EFBCD2BD3BCD00033ECEB /* XCRemoteSwiftPackageReference "OpenTDS" */;
+			productName = OpenTDS;
+		};
+		85DBABE32BD3A061004888E0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85DBABE22BD3A061004888E0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		85DBABE52BD3A061004888E0 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85DBABE22BD3A061004888E0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		85DBABEB2BD3A11A004888E0 /* FlowKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85DBABEA2BD3A11A004888E0 /* XCRemoteSwiftPackageReference "FlowKit" */;
+			productName = FlowKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85DBABC92BD39EAE004888E0 /* Project object */;
 }
