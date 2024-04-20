@@ -13,12 +13,13 @@ struct SetNameView: View {
     @StateObject var viewModel = SetNameViewModel()
     var body: some View {
         CustomTextField(
-            text: "이름",
+            text: "이름을 입력해 주세요",
             input: $viewModel.name,
             placeholder: "이름을 입력 해주세요"
         )
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .padding(.top, 85)
+        .padding(.leading, 24)
         
         Spacer()
         

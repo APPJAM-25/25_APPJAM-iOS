@@ -9,13 +9,13 @@ import SwiftUI
 import FlowKit
 
 struct FlashView: View {
-    @StateObject var viewModel = FlashViewModel()
+//    @StateObject var viewModel = FlashViewModel()
     @Flow var flow
 
     var body: some View {
         VStack {
             
-            Spacer()
+            Image("MainLogo")
             
             Button {
                 flow.push(SetNameView())

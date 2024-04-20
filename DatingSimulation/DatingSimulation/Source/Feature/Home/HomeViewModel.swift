@@ -16,27 +16,19 @@ class HomeViewModel: ObservableObject {
     func mockAfterChat() {
         afterChat = [
             AfterChat(
-                profileImage: "person",
-                name: "최시훈",
-                mbti: "ESTP",
-                some: "썸",
-                relationship: "직장 동료"
+                profileImage: "20woman1",
+                name: "유지인",
+                mbti: "ENFP",
+                some: "친구",
+                relationship: "썸"
             ),
             AfterChat(
-                profileImage: "person",
-                name: "최시훈",
-                mbti: "ESTP",
-                some: "썸",
-                relationship: "직장 동료"
+                profileImage: "20woman4",
+                name: "김서현",
+                mbti: "ISTP",
+                some: "회사 동료",
+                relationship: "썸"
             ),
-            AfterChat(
-                profileImage: "person",
-                name: "최시훈",
-                mbti: "ESTP",
-                some: "썸",
-                relationship: "직장 동료"
-            ),
-            
         ]
     }
     

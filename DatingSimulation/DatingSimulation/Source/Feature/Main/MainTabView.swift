@@ -16,13 +16,13 @@ struct MainTabView: View {
         NavigationView {
             TossTabView {
                 HomeView()
-                    .tossTabItem("홈", Image("house.fill"))
+                    .tossTabItem("홈", Image(systemName: "house.fill"))
                 InfoView()
-                    .tossTabItem("정보", Image("info.circle.fill"))
-                RecodeChatView()
-                    .tossTabItem("대화 기록", Image("newspaper.fill"))
+                    .tossTabItem("정보", Image(systemName: "info.circle.fill"))
+                FeedBackView()
+                    .tossTabItem("대화 기록", Image(systemName: "newspaper.fill"))
                 MyPageView()
-                    .tossTabItem("마이페이지", Image("person.fill"))
+                    .tossTabItem("마이페이지", Image(systemName: "person.fill"))
 
             }
         }

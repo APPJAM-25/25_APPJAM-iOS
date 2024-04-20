@@ -14,7 +14,7 @@ struct SetAgeView: View {
     
     var body: some View {
         CustomTextField(
-            text: "나이",
+            text: "나이를 입력 해주세요",
             input: $viewModel.age,
             placeholder: "나이를 입력 해주세요"
         )

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		853561342BD47D6B00B688C3 /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853561332BD47D6B00B688C3 /* FeedBackView.swift */; };
 		857EFBCF2BD3BCD00033ECEB /* OpenTDS in Frameworks */ = {isa = PBXBuildFile; productRef = 857EFBCE2BD3BCD00033ECEB /* OpenTDS */; };
 		857EFBD62BD3C6300033ECEB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBD52BD3C6300033ECEB /* MainTabView.swift */; };
 		857EFBD92BD3C6840033ECEB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBD82BD3C6840033ECEB /* HomeView.swift */; };
@@ -15,7 +16,6 @@
 		857EFBF72BD3CBC20033ECEB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBF62BD3CBC20033ECEB /* InfoView.swift */; };
 		857EFBFA2BD3CC110033ECEB /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBF92BD3CC110033ECEB /* MyPageView.swift */; };
 		857EFBFC2BD3CCA30033ECEB /* FlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFBFB2BD3CCA30033ECEB /* FlashView.swift */; };
-		857EFC012BD3CE710033ECEB /* FlashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC002BD3CE710033ECEB /* FlashViewModel.swift */; };
 		857EFC092BD3D6FD0033ECEB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC082BD3D6FD0033ECEB /* CustomTextField.swift */; };
 		857EFC0B2BD3DB230033ECEB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC0A2BD3DB230033ECEB /* HomeViewModel.swift */; };
 		857EFC0D2BD3DBA00033ECEB /* AfterChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC0C2BD3DBA00033ECEB /* AfterChat.swift */; };
@@ -37,16 +37,38 @@
 		857EFC952BD404B30033ECEB /* SetGenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC942BD404B30033ECEB /* SetGenderViewModel.swift */; };
 		857EFC972BD406030033ECEB /* AnimationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC962BD406030033ECEB /* AnimationMode.swift */; };
 		857EFC9A2BD40DFF0033ECEB /* WantOtherUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC992BD40DFF0033ECEB /* WantOtherUserView.swift */; };
+		857EFC9C2BD40EC10033ECEB /* WantOtherUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC9B2BD40EC10033ECEB /* WantOtherUserViewModel.swift */; };
+		857EFC9E2BD415870033ECEB /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFC9D2BD415870033ECEB /* Text.swift */; };
+		857EFCAE2BD42FE90033ECEB /* SetOtherUserGenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCAD2BD42FE90033ECEB /* SetOtherUserGenderView.swift */; };
+		857EFCB02BD42FFA0033ECEB /* SetOtherUserGenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCAF2BD42FFA0033ECEB /* SetOtherUserGenderViewModel.swift */; };
+		857EFCB32BD430930033ECEB /* SetOtherUserMbtiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCB22BD430930033ECEB /* SetOtherUserMbtiView.swift */; };
+		857EFCB52BD430A70033ECEB /* SetOtherUserMbtiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCB42BD430A70033ECEB /* SetOtherUserMbtiViewModel.swift */; };
+		857EFCB62BD434C60033ECEB /* SetOtherUserAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCAA2BD42FAB0033ECEB /* SetOtherUserAgeView.swift */; };
+		857EFCB72BD434C60033ECEB /* SetOtherUserAgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCA82BD42FAB0033ECEB /* SetOtherUserAgeViewModel.swift */; };
+		857EFCB82BD434C60033ECEB /* SliderHendle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCA92BD42FAB0033ECEB /* SliderHendle.swift */; };
+		857EFCBB2BD439530033ECEB /* SetOtherUserCurrentRelationshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCBA2BD439530033ECEB /* SetOtherUserCurrentRelationshipView.swift */; };
+		857EFCBD2BD439640033ECEB /* SetOtherUserCurrentRelationshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCBC2BD439640033ECEB /* SetOtherUserCurrentRelationshipViewModel.swift */; };
+		857EFCC02BD439BB0033ECEB /* SetOtherUserDevelopDevelopRelationshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCBF2BD439BB0033ECEB /* SetOtherUserDevelopDevelopRelationshipView.swift */; };
+		857EFCC22BD439CD0033ECEB /* SetOtherUserDevelopDevelopRelationshipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCC12BD439CD0033ECEB /* SetOtherUserDevelopDevelopRelationshipModel.swift */; };
+		857EFCC52BD43A1E0033ECEB /* WentPoliteWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCC42BD43A1E0033ECEB /* WentPoliteWordView.swift */; };
+		857EFCC72BD43A250033ECEB /* WentPoliteWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCC62BD43A250033ECEB /* WentPoliteWordViewModel.swift */; };
+		857EFCCD2BD4544D0033ECEB /* CreatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCCC2BD4544D0033ECEB /* CreatedView.swift */; };
+		857EFCCF2BD454810033ECEB /* CreatedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCCE2BD454810033ECEB /* CreatedViewModel.swift */; };
+		857EFCD12BD455FC0033ECEB /* Created.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCD02BD455FC0033ECEB /* Created.swift */; };
+		857EFCDA2BD461DA0033ECEB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCD82BD461D90033ECEB /* User.swift */; };
+		857EFCDB2BD461DA0033ECEB /* ChatId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCD92BD461D90033ECEB /* ChatId.swift */; };
+		857EFCDD2BD4644C0033ECEB /* TalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCDC2BD4644C0033ECEB /* TalkView.swift */; };
+		857EFCE02BD464620033ECEB /* TalkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EFCDF2BD464620033ECEB /* TalkViewModel.swift */; };
 		85DBABD52BD39EAE004888E0 /* DatingSimulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DBABD42BD39EAE004888E0 /* DatingSimulationApp.swift */; };
 		85DBABD72BD39EAE004888E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DBABD62BD39EAE004888E0 /* ContentView.swift */; };
 		85DBABD92BD39EAF004888E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DBABD82BD39EAF004888E0 /* Assets.xcassets */; };
 		85DBABDC2BD39EAF004888E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DBABDB2BD39EAF004888E0 /* Preview Assets.xcassets */; };
 		85DBABE42BD3A061004888E0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 85DBABE32BD3A061004888E0 /* Alamofire */; };
-		85DBABE62BD3A061004888E0 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 85DBABE52BD3A061004888E0 /* AlamofireDynamic */; };
 		85DBABEC2BD3A11A004888E0 /* FlowKit in Frameworks */ = {isa = PBXBuildFile; productRef = 85DBABEB2BD3A11A004888E0 /* FlowKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		853561332BD47D6B00B688C3 /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackView.swift; sourceTree = "<group>"; };
 		857EFBD52BD3C6300033ECEB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		857EFBD82BD3C6840033ECEB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		857EFBEE2BD3C7660033ECEB /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
@@ -54,7 +76,6 @@
 		857EFBF62BD3CBC20033ECEB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		857EFBF92BD3CC110033ECEB /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
 		857EFBFB2BD3CCA30033ECEB /* FlashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashView.swift; sourceTree = "<group>"; };
-		857EFC002BD3CE710033ECEB /* FlashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashViewModel.swift; sourceTree = "<group>"; };
 		857EFC082BD3D6FD0033ECEB /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		857EFC0A2BD3DB230033ECEB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		857EFC0C2BD3DBA00033ECEB /* AfterChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterChat.swift; sourceTree = "<group>"; };
@@ -77,6 +98,28 @@
 		857EFC942BD404B30033ECEB /* SetGenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetGenderViewModel.swift; path = ../../../../../../../../Desktop/SetGenderViewModel.swift; sourceTree = "<group>"; };
 		857EFC962BD406030033ECEB /* AnimationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationMode.swift; path = ../../../../../../../../Desktop/AnimationMode.swift; sourceTree = "<group>"; };
 		857EFC992BD40DFF0033ECEB /* WantOtherUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WantOtherUserView.swift; path = ../../../../../../../../Desktop/WantOtherUserView.swift; sourceTree = "<group>"; };
+		857EFC9B2BD40EC10033ECEB /* WantOtherUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WantOtherUserViewModel.swift; path = ../../../../../../../../Desktop/WantOtherUserViewModel.swift; sourceTree = "<group>"; };
+		857EFC9D2BD415870033ECEB /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Text.swift; path = ../../../../../../../Desktop/Text.swift; sourceTree = "<group>"; };
+		857EFCA82BD42FAB0033ECEB /* SetOtherUserAgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetOtherUserAgeViewModel.swift; sourceTree = "<group>"; };
+		857EFCA92BD42FAB0033ECEB /* SliderHendle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderHendle.swift; sourceTree = "<group>"; };
+		857EFCAA2BD42FAB0033ECEB /* SetOtherUserAgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetOtherUserAgeView.swift; sourceTree = "<group>"; };
+		857EFCAD2BD42FE90033ECEB /* SetOtherUserGenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetOtherUserGenderView.swift; path = ../../../../../../../../Desktop/SetOtherUserGenderView.swift; sourceTree = "<group>"; };
+		857EFCAF2BD42FFA0033ECEB /* SetOtherUserGenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetOtherUserGenderViewModel.swift; path = ../../../../../../../../Desktop/SetOtherUserGenderViewModel.swift; sourceTree = "<group>"; };
+		857EFCB22BD430930033ECEB /* SetOtherUserMbtiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetOtherUserMbtiView.swift; path = ../../../../../../../../Desktop/SetOtherUserMbtiView.swift; sourceTree = "<group>"; };
+		857EFCB42BD430A70033ECEB /* SetOtherUserMbtiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetOtherUserMbtiViewModel.swift; path = ../../../../../../../../Desktop/SetOtherUserMbtiViewModel.swift; sourceTree = "<group>"; };
+		857EFCBA2BD439530033ECEB /* SetOtherUserCurrentRelationshipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetOtherUserCurrentRelationshipView.swift; path = ../../../../../../../../Desktop/SetOtherUserCurrentRelationshipView.swift; sourceTree = "<group>"; };
+		857EFCBC2BD439640033ECEB /* SetOtherUserCurrentRelationshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetOtherUserCurrentRelationshipViewModel.swift; path = ../../../../../../../../Desktop/SetOtherUserCurrentRelationshipViewModel.swift; sourceTree = "<group>"; };
+		857EFCBF2BD439BB0033ECEB /* SetOtherUserDevelopDevelopRelationshipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetOtherUserDevelopDevelopRelationshipView.swift; path = ../../../../../../../../Desktop/SetOtherUserDevelopDevelopRelationshipView.swift; sourceTree = "<group>"; };
+		857EFCC12BD439CD0033ECEB /* SetOtherUserDevelopDevelopRelationshipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetOtherUserDevelopDevelopRelationshipModel.swift; path = ../../../../../../../../Desktop/SetOtherUserDevelopDevelopRelationshipModel.swift; sourceTree = "<group>"; };
+		857EFCC42BD43A1E0033ECEB /* WentPoliteWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WentPoliteWordView.swift; path = ../../../../../../../../Desktop/WentPoliteWordView.swift; sourceTree = "<group>"; };
+		857EFCC62BD43A250033ECEB /* WentPoliteWordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WentPoliteWordViewModel.swift; path = ../../../../../../../../Desktop/WentPoliteWordViewModel.swift; sourceTree = "<group>"; };
+		857EFCCC2BD4544D0033ECEB /* CreatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreatedView.swift; path = ../../../../../../../../Desktop/CreatedView.swift; sourceTree = "<group>"; };
+		857EFCCE2BD454810033ECEB /* CreatedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreatedViewModel.swift; path = ../../../../../../../../Desktop/CreatedViewModel.swift; sourceTree = "<group>"; };
+		857EFCD02BD455FC0033ECEB /* Created.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Created.swift; path = ../../../../../../../../Desktop/Created.swift; sourceTree = "<group>"; };
+		857EFCD82BD461D90033ECEB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		857EFCD92BD461D90033ECEB /* ChatId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatId.swift; sourceTree = "<group>"; };
+		857EFCDC2BD4644C0033ECEB /* TalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TalkView.swift; path = ../../../../../../../../Desktop/TalkView.swift; sourceTree = "<group>"; };
+		857EFCDF2BD464620033ECEB /* TalkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TalkViewModel.swift; path = ../../../../../../../../Desktop/TalkViewModel.swift; sourceTree = "<group>"; };
 		85DBABD12BD39EAE004888E0 /* DatingSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DBABD42BD39EAE004888E0 /* DatingSimulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingSimulationApp.swift; sourceTree = "<group>"; };
 		85DBABD62BD39EAE004888E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,7 +135,6 @@
 				857EFBCF2BD3BCD00033ECEB /* OpenTDS in Frameworks */,
 				85DBABEC2BD3A11A004888E0 /* FlowKit in Frameworks */,
 				85DBABE42BD3A061004888E0 /* Alamofire in Frameworks */,
-				85DBABE62BD3A061004888E0 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,10 +164,11 @@
 		857EFBD32BD3C2100033ECEB /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				857EFC182BD3F0890033ECEB /* Sytle */,
 				857EFC072BD3D6DC0033ECEB /* Component */,
 				857EFBF02BD3C7BE0033ECEB /* Extension */,
+				857EFC182BD3F0890033ECEB /* Sytle */,
 				857EFBFF2BD3CD590033ECEB /* Flash */,
+				857EFCA02BD4160A0033ECEB /* SetOtherUser */,
 				857EFBD42BD3C6050033ECEB /* Main */,
 				857EFBD72BD3C67D0033ECEB /* Home */,
 				857EFBF52BD3CB4F0033ECEB /* Info */,
@@ -157,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				857EFBEE2BD3C7660033ECEB /* Font.swift */,
+				857EFC9D2BD415870033ECEB /* Text.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -189,7 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				857EFBFB2BD3CCA30033ECEB /* FlashView.swift */,
-				857EFC002BD3CE710033ECEB /* FlashViewModel.swift */,
 				857EFC0E2BD3EB3D0033ECEB /* SetName */,
 				857EFC132BD3EBB70033ECEB /* SetAge */,
 				857EFC912BD404860033ECEB /* SetGender */,
@@ -263,8 +306,109 @@
 			isa = PBXGroup;
 			children = (
 				857EFC992BD40DFF0033ECEB /* WantOtherUserView.swift */,
+				857EFC9B2BD40EC10033ECEB /* WantOtherUserViewModel.swift */,
 			);
 			path = WantOtherUser;
+			sourceTree = "<group>";
+		};
+		857EFCA02BD4160A0033ECEB /* SetOtherUser */ = {
+			isa = PBXGroup;
+			children = (
+				857EFCE12BD46E3E0033ECEB /* FeedBack */,
+				857EFCA72BD42FA30033ECEB /* SetOtherUserAge */,
+				857EFCAB2BD42FC60033ECEB /* SetOtherUserGender */,
+				857EFCB12BD430780033ECEB /* SetOtherUserMbti */,
+				857EFCB92BD439020033ECEB /* SetOtherUserCurrentRelationship */,
+				857EFCBE2BD439780033ECEB /* SetOtherUserDevelopDevelopRelationship */,
+				857EFCC32BD439E80033ECEB /* WentPoliteWord */,
+				857EFCCB2BD4532A0033ECEB /* Created */,
+				857EFCD22BD45BE10033ECEB /* Talk */,
+			);
+			path = SetOtherUser;
+			sourceTree = "<group>";
+		};
+		857EFCA72BD42FA30033ECEB /* SetOtherUserAge */ = {
+			isa = PBXGroup;
+			children = (
+				857EFCAA2BD42FAB0033ECEB /* SetOtherUserAgeView.swift */,
+				857EFCA82BD42FAB0033ECEB /* SetOtherUserAgeViewModel.swift */,
+				857EFCA92BD42FAB0033ECEB /* SliderHendle.swift */,
+			);
+			path = SetOtherUserAge;
+			sourceTree = "<group>";
+		};
+		857EFCAB2BD42FC60033ECEB /* SetOtherUserGender */ = {
+			isa = PBXGroup;
+			children = (
+				857EFCAD2BD42FE90033ECEB /* SetOtherUserGenderView.swift */,
+				857EFCAF2BD42FFA0033ECEB /* SetOtherUserGenderViewModel.swift */,
+			);
+			path = SetOtherUserGender;
+			sourceTree = "<group>";
+		};
+		857EFCB12BD430780033ECEB /* SetOtherUserMbti */ = {
+			isa = PBXGroup;
+			children = (
+				857EFCB22BD430930033ECEB /* SetOtherUserMbtiView.swift */,
+				857EFCB42BD430A70033ECEB /* SetOtherUserMbtiViewModel.swift */,
+			);
+			path = SetOtherUserMbti;
+			sourceTree = "<group>";
+		};
+		857EFCB92BD439020033ECEB /* SetOtherUserCurrentRelationship */ = {
+			isa = PBXGroup;
+			children = (
+				857EFCBA2BD439530033ECEB /* SetOtherUserCurrentRelationshipView.swift */,
+				857EFCBC2BD439640033ECEB /* SetOtherUserCurrentRelationshipViewModel.swift */,
+			);
+			path = SetOtherUserCurrentRelationship;
+			sourceTree = "<group>";
+		};
+		857EFCBE2BD439780033ECEB /* SetOtherUserDevelopDevelopRelationship */ = {
+			isa = PBXGroup;
+			children = (
+				857EFCBF2BD439BB0033ECEB /* SetOtherUserDevelopDevelopRelationshipView.swift */,
+				857EFCC12BD439CD0033ECEB /* SetOtherUserDevelopDevelopRelationshipModel.swift */,
+			);
+			path = SetOtherUserDevelopDevelopRelationship;
+			sourceTree = "<group>";
+		};
+		857EFCC32BD439E80033ECEB /* WentPoliteWord */ = {
+			isa = PBXGroup;
+			children = (
+				857EFCC42BD43A1E0033ECEB /* WentPoliteWordView.swift */,
+				857EFCC62BD43A250033ECEB /* WentPoliteWordViewModel.swift */,
+				857EFCD82BD461D90033ECEB /* User.swift */,
+				857EFCD92BD461D90033ECEB /* ChatId.swift */,
+			);
+			path = WentPoliteWord;
+			sourceTree = "<group>";
+		};
+		857EFCCB2BD4532A0033ECEB /* Created */ = {
+			isa = PBXGroup;
+			children = (
+				857EFCCC2BD4544D0033ECEB /* CreatedView.swift */,
+				857EFCCE2BD454810033ECEB /* CreatedViewModel.swift */,
+				857EFCD02BD455FC0033ECEB /* Created.swift */,
+			);
+			path = Created;
+			sourceTree = "<group>";
+		};
+		857EFCD22BD45BE10033ECEB /* Talk */ = {
+			isa = PBXGroup;
+			children = (
+				857EFCDC2BD4644C0033ECEB /* TalkView.swift */,
+				857EFCDF2BD464620033ECEB /* TalkViewModel.swift */,
+			);
+			path = Talk;
+			sourceTree = "<group>";
+		};
+		857EFCE12BD46E3E0033ECEB /* FeedBack */ = {
+			isa = PBXGroup;
+			children = (
+				853561332BD47D6B00B688C3 /* FeedBackView.swift */,
+			);
+			path = FeedBack;
 			sourceTree = "<group>";
 		};
 		85DBABC82BD39EAE004888E0 = {
@@ -319,7 +463,6 @@
 			name = DatingSimulation;
 			packageProductDependencies = (
 				85DBABE32BD3A061004888E0 /* Alamofire */,
-				85DBABE52BD3A061004888E0 /* AlamofireDynamic */,
 				85DBABEB2BD3A11A004888E0 /* FlowKit */,
 				857EFBCE2BD3BCD00033ECEB /* OpenTDS */,
 			);
@@ -391,28 +534,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857EFCB62BD434C60033ECEB /* SetOtherUserAgeView.swift in Sources */,
+				857EFCB72BD434C60033ECEB /* SetOtherUserAgeViewModel.swift in Sources */,
+				857EFCB82BD434C60033ECEB /* SliderHendle.swift in Sources */,
 				857EFC952BD404B30033ECEB /* SetGenderViewModel.swift in Sources */,
+				857EFCB32BD430930033ECEB /* SetOtherUserMbtiView.swift in Sources */,
 				857EFC092BD3D6FD0033ECEB /* CustomTextField.swift in Sources */,
+				857EFCC52BD43A1E0033ECEB /* WentPoliteWordView.swift in Sources */,
+				857EFCB02BD42FFA0033ECEB /* SetOtherUserGenderViewModel.swift in Sources */,
+				857EFCCD2BD4544D0033ECEB /* CreatedView.swift in Sources */,
+				857EFCBB2BD439530033ECEB /* SetOtherUserCurrentRelationshipView.swift in Sources */,
 				857EFC152BD3EBC70033ECEB /* SetAgeView.swift in Sources */,
+				857EFC9C2BD40EC10033ECEB /* WantOtherUserViewModel.swift in Sources */,
+				857EFCDB2BD461DA0033ECEB /* ChatId.swift in Sources */,
 				85DBABD72BD39EAE004888E0 /* ContentView.swift in Sources */,
+				857EFCE02BD464620033ECEB /* TalkViewModel.swift in Sources */,
+				857EFCCF2BD454810033ECEB /* CreatedViewModel.swift in Sources */,
 				857EFC9A2BD40DFF0033ECEB /* WantOtherUserView.swift in Sources */,
+				857EFCB52BD430A70033ECEB /* SetOtherUserMbtiViewModel.swift in Sources */,
 				857EFC172BD3EBE90033ECEB /* SetAgeViewModel.swift in Sources */,
 				857EFBFA2BD3CC110033ECEB /* MyPageView.swift in Sources */,
 				857EFBD92BD3C6840033ECEB /* HomeView.swift in Sources */,
-				857EFC012BD3CE710033ECEB /* FlashViewModel.swift in Sources */,
 				857EFBF42BD3CAD70033ECEB /* RecodeChatView.swift in Sources */,
 				857EFBEF2BD3C7660033ECEB /* Font.swift in Sources */,
 				857EFBD62BD3C6300033ECEB /* MainTabView.swift in Sources */,
+				857EFCDD2BD4644C0033ECEB /* TalkView.swift in Sources */,
+				857EFCAE2BD42FE90033ECEB /* SetOtherUserGenderView.swift in Sources */,
 				857EFC0B2BD3DB230033ECEB /* HomeViewModel.swift in Sources */,
+				857EFC9E2BD415870033ECEB /* Text.swift in Sources */,
+				857EFCC72BD43A250033ECEB /* WentPoliteWordViewModel.swift in Sources */,
 				857EFC122BD3EB550033ECEB /* SetNameView.swift in Sources */,
+				857EFCBD2BD439640033ECEB /* SetOtherUserCurrentRelationshipViewModel.swift in Sources */,
 				857EFC972BD406030033ECEB /* AnimationMode.swift in Sources */,
 				857EFC932BD404930033ECEB /* SetGenderView.swift in Sources */,
 				857EFC102BD3EB500033ECEB /* SetNameViewModel.swift in Sources */,
 				857EFBFC2BD3CCA30033ECEB /* FlashView.swift in Sources */,
+				857EFCD12BD455FC0033ECEB /* Created.swift in Sources */,
 				85DBABD52BD39EAE004888E0 /* DatingSimulationApp.swift in Sources */,
+				853561342BD47D6B00B688C3 /* FeedBackView.swift in Sources */,
 				857EFBF72BD3CBC20033ECEB /* InfoView.swift in Sources */,
 				857EFC1A2BD3F09C0033ECEB /* CustomOreangeButtonStyle.swift in Sources */,
 				857EFC0D2BD3DBA00033ECEB /* AfterChat.swift in Sources */,
+				857EFCC22BD439CD0033ECEB /* SetOtherUserDevelopDevelopRelationshipModel.swift in Sources */,
+				857EFCC02BD439BB0033ECEB /* SetOtherUserDevelopDevelopRelationshipView.swift in Sources */,
+				857EFCDA2BD461DA0033ECEB /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +713,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DatingSimulation/Resource/Preview Content\"";
-				DEVELOPMENT_TEAM = W7X5HRD463;
+				DEVELOPMENT_TEAM = XCQRCQ3RAB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingSimulation/Info.plist;
@@ -578,7 +743,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DatingSimulation/Resource/Preview Content\"";
-				DEVELOPMENT_TEAM = W7X5HRD463;
+				DEVELOPMENT_TEAM = XCQRCQ3RAB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingSimulation/Info.plist;
@@ -660,11 +825,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 85DBABE22BD3A061004888E0 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		85DBABE52BD3A061004888E0 /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 85DBABE22BD3A061004888E0 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
 		};
 		85DBABEB2BD3A11A004888E0 /* FlowKit */ = {
 			isa = XCSwiftPackageProductDependency;
